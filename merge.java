@@ -6,7 +6,8 @@ public class merge{
             }
         }
         catch(Exception e ){
-
+            // adding the new catch block 
+            System.out.println("error "+e);
         }
     }
 }
