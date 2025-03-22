@@ -14,6 +14,7 @@ public class evenorodd {
                 System.out.println("odd");
             }
         } catch (Exception e) {
+            // update the messages 
             System.out.println("errot message "+e);
         }
     }
