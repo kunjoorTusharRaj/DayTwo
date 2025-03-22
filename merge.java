@@ -1,6 +1,13 @@
 public class merge{
     public static void main (String args[]){
-        System.err.println("this is the error message ");
+        try{
+            if(10/0==0){
+                System.out.println("number is div by 0");
+            }
+        }
+        catch(Exception e ){
+
+        }
     }
 }
 
